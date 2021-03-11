@@ -1,0 +1,42 @@
+User Manual
+
+Task 1:
+1. First run cmd and open the folder "Task1".
+2. Input the command "java NetAnalyser" and then press Enter.
+3. You can see the interface, then enter a valid URL in the text box on the left, 
+select the No. of probes in the drop-down list, which is from 1~10, and finally press the "Process" button.
+4. Wait for a little time, the output from the ping command is shown in the middle text field, 
+and the histogram of RTT can be seen on the right of the interface.
+5. If there are some errors, "Something wrong happened" will be shown in the middle text field.
+6. You can repeat the experiment without having to relaunch the application, just repeat form Step 3.
+
+Task 2:
+1. First run cmd and open the folder "Task2".
+2. Input the command "java NetAnalyser + a number from(10~20inclusive)" and then press Enter.
+3. If your input is invalid, the interface will not open, and you will be told that 
+"You should give a number between 10 and 20 inclusive.
+Please run the program again."
+4. If your input is valid, you can see the interface, then enter a valid URL in the text box on the left, 
+select the No. of probes in the drop-down list,which is from 1 to the number you have input,
+and finally press the "Process" button.
+5. Wait for a little time, the output from the ping command is shown in the middle text field, 
+and the histogram of RTT can be seen on the right of the interface.
+6. A file named by the URL and the current time is created in D:/, you can see the RTT and histogram in it.
+7. If there are some errors, "Something wrong happened" will be shown in the middle text field.
+8 You can repeat the experiment without having to relaunch the application, just repeat from Step 4.
+
+ExtraCredit:
+1. First run cmd and open the folder "ExtraCredit".
+2. Input the command "java NetAnalyser + a number from(10~20inclusive)" and then press Enter.
+3. If your input is invalid, the interface will not open, and you will be told that 
+"You should give a number between 10 and 20 inclusive.
+Please run the program again."
+4. If your input is valid, you can see the interface, then enter a valid URL in the text box on the left.
+5. If your input URL is invalid or empty, a new interface appears to tell you "The URL is invalid, Please try again"
+6. If your input URL is valid, select the No. of probes in the drop-down list, which is from 1 to the number you have input,
+and finally press the "Process" button.
+7. Wait for a little time, the output from the ping command is shown in the middle text field, 
+and the histogram of RTT can be seen on the right of the interface.
+8. A file named by the URL and the current time is created in D:/, you can see the RTT and histogram in it.
+9. If there are some errors, "Server cannot be reached" will be shown in the middle text field.
+10. You can repeat the experiment without having to relaunch the application, just repeat from Step 4.
